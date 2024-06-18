@@ -1,0 +1,35 @@
+body{
+    background-color: #FFDBDC;
+}
+.nav{
+    height: 60px;
+    width: 95%;
+    background-color: #3A4664;
+    border: 2px solid white;
+    outline: 2px solid #3A4664;
+    outline-offset: 2px;
+    margin:  auto;
+    margin-top: 10px;
+    border-radius: 0px 25px 0px 25px;
+    
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #FFDBDC;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+.nav ul li i{
+    color: white;
+    margin-right: 10px;
+}
+.nav ul li a:hover{
+    font-size: 20px;
+    color: white;
+}
